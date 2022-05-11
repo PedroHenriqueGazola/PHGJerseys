@@ -82,7 +82,7 @@ main {
 #containerimgmain1 {
     display: flex;
     justify-content: space-around;
-    padding: 50px 200px 0 200px;
+    padding: 50px 20% 0 20%;
 
 }
 
