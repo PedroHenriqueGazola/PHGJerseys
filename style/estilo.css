@@ -90,7 +90,7 @@ main {
 
 .divimg {
     width: 20%;
-    min-width: 100px;
+    min-width: 50px;
 }
 
 .imgmain {
@@ -107,4 +107,13 @@ p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1vw;
+}
+#btncomprar {
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    display: none;
 }
