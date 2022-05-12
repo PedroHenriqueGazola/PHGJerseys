@@ -32,10 +32,11 @@ header {
 }
 
 #divheader {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: relative;
+    gap: 5%;
 }
 
 .pheader {
@@ -46,7 +47,7 @@ header {
 
 #divicons1, #divicons2, #divicons3 {
     text-align: center;
-    width: 50%;
+    width: 100%;
     min-width: 35px;
 }
 #divtextheader {
