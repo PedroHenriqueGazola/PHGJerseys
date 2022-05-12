@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+    min-height: 100px;
 }
 #divimgheader {
     width: 10%;
@@ -24,11 +24,11 @@ header {
 #diviconsheader {
     width: 20%;
     margin-right: 2%;
-
 }
 #imglogo {
     width: 100%;
-    height: auto;
+    min-width: 100px;
+
 }
 
 #divheader {
@@ -47,6 +47,7 @@ header {
 #divicons1, #divicons2, #divicons3 {
     text-align: center;
     width: 50%;
+    min-width: 35px;
 }
 #divtextheader {
     width: 30%;
@@ -57,6 +58,7 @@ header {
     font-size: 1vw;
     color: white;
     width: 100%;
+    min-width: 200px;
     height: 100%;
     border-radius: 10px;
     padding: 5px;
@@ -88,6 +90,7 @@ main {
 
 .divimg {
     width: 20%;
+    min-width: 100px;
 }
 
 .imgmain {
@@ -95,7 +98,9 @@ main {
     height: auto;
     background-color: lightgray;
     border: 1px solid hsla(0, 0%, 0%, 0.231);
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0%;
 }
 
 p {
