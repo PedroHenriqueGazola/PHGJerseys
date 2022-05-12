@@ -73,49 +73,25 @@ header {
     height: auto;
 }
 
-/*------------- Main -------------*/
-
+/*------------main------------*/
 main {
+    padding: 0% 5%;
+}
+
+#containermain {
     width: 100%;
-    height: 800px;
-    background-color: white;
-}
-
-#containerimgmain1 {
     display: flex;
-    justify-content: space-around;
-    padding: 50px 10% 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
 }
 
-.divimg {
-    width: 20%;
-    min-width: 50px;
-    cursor: pointer;
+#divcamisa {
+    width: 40%;
+    height: auto;
 }
 
-.imgmain {
+#camisaprin {
     width: 100%;
     height: auto;
-    background-color: lightgray;
-    border: 1px solid hsla(0, 0%, 0%, 0.231);
-    border-radius: 10px 10px 10px 10px;
-    margin: 0;
-    padding: 0%;
-}
-
-p {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
-}
-#btncomprar {
-    width: 100%;
-    padding: 2%;
-    border-radius: 5px;
-    font-size: 1vw;
-    background-color: black;
-    color: white;
-    display: none;
-    margin-top: 10%;
-    cursor: pointer;
 }

@@ -9,3 +9,10 @@ function sair() {
     document.getElementById('btncomprar').style.display = 'none';
 }
 
+function psgpretaebranca() {
+    window.location="/camisas/psgbrancaepreta.html";
+}
+
+function home() {
+    window.location="/index.html";
+}
